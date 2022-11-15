@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto&family=Xanh+Mono&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width:80%;
+    margin : 50px auto;
+    position: relative;
+}
+
+#photo{
+background-color: #E14D2A;
+width:100%;
+text-align: center;
+margin-bottom:20px;
+}
+#photo img{
+    height: 200px;
+    width:200px;
+}
+#name{
+    background-color: #E14D2A;
+    width:100%;
+    text-align: center;
+    height: 40px;
+}
+#name p{
+    font-size: 50px;
+    position: absolute;
+    background-color: white;
+    display: inline;
+    border-radius: 10px;
+    padding:10px 30px;
+    top:120px;
+    right:320px;
+}
+#address{
+ border-bottom: 1px solid gray;
+ width:100%;
+ text-align: center;
+ margin-bottom:20px;
+ letter-spacing: 1px;
+ font-size: 15px;
+}
+.resume-body{
+    display:flex;
+    align-items: center;
+}
+.resume-body .resume-body-left,
+.resume-body .resume-body-right {
+    width:50%;
+    text-align: justify;
+    padding:20px;
+}
+.resume-body .resume-body-left{
+border-right: 1px solid grey;
+}
+
+.resume-body .resume-body-left p,
+.resume-body .resume-body-right p,
+li
+{
+font-size: 15px;
+}
+.resume-body .resume-body-left .profile .profile-head,
+.resume-body .resume-body-left .experience .experience-head,
+.resume-body .resume-body-right .experience .experience-head,
+.resume-body .resume-body-right .education .education-head,
+.resume-body .resume-body-left .skill .skill-head
+{
+    display: flex;
+    align-items: center;
+    padding:4px;
+    height: 25px;
+}
+.resume-body .resume-body-left .profile .profile-body,
+.resume-body .resume-body-left .experience .experience-body,
+.resume-body .resume-body-right .experience .experience-body,
+.resume-body .resume-body-right .education .education-body,
+.resume-body .resume-body-left .skill .skill-body
+{
+     padding:10px;
+
+}
+.resume-body .resume-body-left .experience .experience-body .company-name,
+.resume-body .resume-body-right .experience .experience-body .company-name,
+.resume-body .resume-body-right .education .education-body .institution-name{
+    display:flex;
+    justify-content:space-between;
+}
+
+ul{
+    padding-left: 30px;
+}
+i{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #E14D2A;
+    
+}
+
+.skill-types div{
+    height:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.skill-types .skill-type-1,
+.skill-types .skill-type-2{
+    justify-content: space-around;
+}
+.slidecontainer {
+    width: 250px;
+  }
+  
+.slider {
+    -webkit-appearance: none;
+    width: 250px;
+    height: 5px;
+    background: #d3d3d3;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    box-shadow: 0px 15px 40px #7E6D5766;
+}
+.slider:hover {
+    opacity: 1;
+}
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background:#E14D2A ;
+    cursor: pointer;
+}
+  
+  
+  
+
+
+  
